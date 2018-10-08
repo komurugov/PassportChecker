@@ -22,6 +22,6 @@ __fastcall TMainForm::TMainForm(TComponent* Owner)
 void __fastcall TMainForm::ButtonCheckClick(TObject *Sender)
 {
 	MemoResults->Clear();
-	MemoResults->Lines->Add(Checkings::IsPassportBad(MaskEditSeries->Text, MaskEditNumber->Text) ? "Bad" : "Good");
+	MemoResults->Lines->Add(Checkings::CheckPassport(MaskEditSeries->Text, MaskEditNumber->Text));
 }
 //---------------------------------------------------------------------------

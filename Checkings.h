@@ -6,8 +6,11 @@
 #endif
 
 
+#include <system.hpp>
+
+
 class Checkings
 {
 public:
-	static bool IsPassportBad(AnsiString series, AnsiString number);
+	static AnsiString CheckPassport(AnsiString series, AnsiString number);
 };

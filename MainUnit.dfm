@@ -1,7 +1,7 @@
 object MainForm: TMainForm
   Left = 192
   Top = 149
-  Width = 214
+  Width = 277
   Height = 186
   BorderIcons = [biSystemMenu, biMinimize]
   Caption = 'Passport Checker'
@@ -15,21 +15,21 @@ object MainForm: TMainForm
   PixelsPerInch = 96
   TextHeight = 13
   object LabelSeries: TLabel
-    Left = 15
+    Left = 45
     Top = 15
     Width = 34
     Height = 13
     Caption = #1057#1077#1088#1080#1103':'
   end
   object LabelNumber: TLabel
-    Left = 93
+    Left = 123
     Top = 15
     Width = 37
     Height = 13
     Caption = #1053#1086#1084#1077#1088':'
   end
   object MaskEditSeries: TMaskEdit
-    Left = 54
+    Left = 84
     Top = 12
     Width = 34
     Height = 21
@@ -39,7 +39,7 @@ object MainForm: TMainForm
     Text = '    '
   end
   object MaskEditNumber: TMaskEdit
-    Left = 135
+    Left = 165
     Top = 12
     Width = 46
     Height = 21
@@ -49,7 +49,7 @@ object MainForm: TMainForm
     Text = '      '
   end
   object ButtonCheck: TButton
-    Left = 15
+    Left = 45
     Top = 39
     Width = 169
     Height = 25
@@ -58,7 +58,7 @@ object MainForm: TMainForm
     OnClick = ButtonCheckClick
   end
   object MemoResults: TMemo
-    Left = 15
+    Left = 45
     Top = 72
     Width = 169
     Height = 40
